@@ -22,6 +22,13 @@
       <version>${junit-version}</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- :::::::::: Integrando la dependencia del proyecto arte-maven-reposritory (DATA)    :::::::::::::-->
+    <dependency>
+      <groupId>com.talentyco</groupId>
+      <artifactId>arte-maven-repository</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
